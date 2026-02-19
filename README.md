@@ -2,9 +2,20 @@
 
 This repository tracks my progress through a 90-day elite backend roadmap.
 
-**Day 2: Temperature Converter**
+## Day 2: Temperature Converter**
 
-A simple script that converts Celsius to Fahrenheit and Celsius to kelvin using Python's core syntax
+### Description
+Enter the temperature in Celsius.
+
+**Output will display:**
+Temperature in Kelvin
+Temperature in Fahrenheit
+It practices:
+- Variables
+- Input/output
+- Arithmetic operations
+- Float handling
+- f-string formatting
 
 ## Day 3 – CLI Login System
 
