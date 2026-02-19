@@ -7,9 +7,9 @@ This repository tracks my progress through a 90-day elite backend roadmap.
 ### Description
 Enter the temperature in Celsius.
 
-**Output will display:**
--Temperature in Kelvin
--Temperature in Fahrenheit
+### Output will display:
+ -Temperature in Kelvin
+ -Temperature in Fahrenheit
 ### It practices:
 - Variables
 - Input/output
