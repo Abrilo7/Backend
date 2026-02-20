@@ -20,8 +20,6 @@ Enter the temperature in Celsius.
 
 ## Day 3 – Mini Project: CLI Login System
 
-## Mini Project: CLI Login System
-
 ### Description
 This project simulates a simple login system in the terminal.  
 It practices:
