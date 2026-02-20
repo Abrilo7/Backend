@@ -1,6 +1,8 @@
   # Python Foundations Journey
+  
 
 This repository tracks my progress through a 90-day elite backend roadmap.
+---
 
 ## Day 2 - Mini Project: Temperature Converter
 
@@ -17,6 +19,8 @@ Enter the temperature in Celsius.
 - Arithmetic operations
 - Float handling
 - f-string formatting
+  
+---
 
 ## Day 3 – Mini Project: CLI Login System
 
@@ -32,8 +36,6 @@ It practices:
 
 The system limits the number of password attempts and blocks access after repeated failures, introducing basic authentication logic.
 
----
-
 ### Features
 
 1. **Username and Password Input**  
@@ -47,6 +49,8 @@ The system limits the number of password attempts and blocks access after repeat
    - Generic error message is used (`"wrong password or username"`) to prevent attackers from knowing which part was incorrect.
 5. **Account Blocking**  
    - When all attempts are used, the account is blocked.
+     
+---
 
 ## Day 4 - Mini Project: Multiplication Table Generator
 
@@ -68,5 +72,8 @@ It practices:
 3. Enter the range up to which you want the multiplication table.
 4. The program validates inputs to ensure they are numeric and positive.
 5. The multiplication table will display in a readable format.
+   
+---
+
 
 
