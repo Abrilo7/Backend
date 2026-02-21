@@ -1,4 +1,5 @@
 shopping_list = ["Bread","Milk","Vegitables","Fruits"] 
+
 while True:
  print("""      press:
           1. To add an item
@@ -10,13 +11,13 @@ while True:
  if item.isdigit():
     item = int(item)
     if item == 1:
-        mark = input("Enter the item you want to add: ")
+        mark = input("Enter the item you want to add: ").strip().lower()
         shopping_list.append(mark)
         print("Your item is added sucessfully! ")
     elif item == 2:
-        arg = input("Enter the value you want to remove: ")
+        arg = input("Enter the value you want to remove: ").strip().lower()
         if arg in shopping_list:
-            print(shopping_list.remove(arg))
+            shopping_list.remove(arg)
             print("Your item is successfully removed! ")
         else:
             print("Not Found! ")
