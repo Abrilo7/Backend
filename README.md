@@ -77,4 +77,43 @@ It practices:
 ---
 
 
+## Day 5 - Mini Project: CLI Shopping List Manager
+
+### Description
+This project is a simple Command Line Interface (CLI) application that allows users to manage a shopping list.
+
+The program runs in a loop and lets users:
+- Add items
+- Remove items
+- View the current list 
+- Exit the program
+
+This project focuses on practicing:
+- Lists
+- Loops (`while`)
+- Conditional statements
+- Input validation
+- List methods (`append`, `remove`)
+- Basic user experience handling
+
+
+### 🚀 Features
+
+#### 1️⃣ Add Item
+Users can add new items to the shopping list.
+- Input is cleaned using `.strip()` to remove extra spaces.
+- Input is converted to lowercase using `.lower()` for consistency.
+
+#### 2️⃣ Remove Item
+Users can remove an item by name.
+- The program checks if the item exists before removing it.
+- Prevents crashes when item is not found.
+
+#### 3️⃣ View List
+Displays all current items in the shopping list.
+
+#### 4️⃣ Input Validation
+- Menu only accepts numbers.
+- Prevents invalid menu selections.
+
 
