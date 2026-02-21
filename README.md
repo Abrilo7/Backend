@@ -116,4 +116,6 @@ Displays all current items in the shopping list.
 - Menu only accepts numbers.
 - Prevents invalid menu selections.
 
+---
+
 
