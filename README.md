@@ -97,7 +97,7 @@ This project focuses on practicing:
 - Basic user experience handling
 
 
-### 🚀 Features
+### Features
 
 #### 1️⃣ Add Item
 Users can add new items to the shopping list.
