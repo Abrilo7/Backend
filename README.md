@@ -1,7 +1,7 @@
   # Python Foundations Journey
   
 
-This repository tracks my progress through a 90-day elite backend roadmap.
+This repository tracks my progress through a 90-day elite backend challenge.
 
 ---
 
@@ -14,27 +14,13 @@ Enter the temperature in Celsius.
 - Temperature in Kelvin
 - Temperature in Fahrenheit
   
-### It practices:
-- Variables
-- Input/output
-- Arithmetic operations
-- Float handling
-- f-string formatting
-  
+
 ---
 
 ## Day 3 – Mini Project: CLI Login System
 
 ### Description
 This project simulates a simple login system in the terminal.  
-It practices:
-
-- Conditional statements (`if`, `elif`, `else`)
-- Boolean logic (`and`, `or`, `not`)
-- Loops (`while`)
-- Input validation
-- Security-aware design (generic error messages, attempt limits)
-
 The system limits the number of password attempts and blocks access after repeated failures, introducing basic authentication logic.
 
 ### Features
@@ -56,15 +42,7 @@ The system limits the number of password attempts and blocks access after repeat
 ## Day 4 - Mini Project: Multiplication Table Generator
 
 ### Description
-This project generates a multiplication table for a number entered by the user.  
-It practices:
-
-- Loops (`for` loop)  
-- Range handling (`range()` function)  
-- Input validation  
-- Basic arithmetic  
-- Conditional logic (to ensure positive range and numeric input)  
-- Formatted output using f-strings  
+This project generates a multiplication table for a number entered by the user.   
 
 ### Usage
 
@@ -82,20 +60,11 @@ It practices:
 ### Description
 This project is a simple Command Line Interface (CLI) application that allows users to manage a shopping list.
 
-The program runs in a loop and lets users:
+The program runs in a loop and lets:
 - Add items
 - Remove items
 - View the current list 
 - Exit the program
-
-This project focuses on practicing:
-- Lists
-- Loops (`while`)
-- Conditional statements
-- Input validation
-- List methods (`append`, `remove`)
-- Basic user experience handling
-
 
 ### Features
 
@@ -118,4 +87,50 @@ Displays all current items in the shopping list.
 
 ---
 
+## Day 6 - Mini Project: CLI User Management System
+
+### 📌 Description
+
+This project is a Command Line Interface (CLI) based User Management System built using Python dictionaries.
+
+The program allows to:
+
+- Register new users
+- Login with credentials
+- View all registered users
+- Delete existing users
+- Exit the system
+
+This project focuses on mastering dictionary-based data modeling and persistent state management.
+
+## 🚀 Features
+
+### 1️⃣ Register User
+- Username is normalized using `.strip()` and `.lower()`
+- Prevents duplicate usernames
+- Stores data in dictionary (`users[username] = password`)
+
+### 2️⃣ Login System
+- Verifies if username exists
+- Validates password
+- Handles incorrect password and unknown user cases safely
+
+### 3️⃣ View All Users
+- Displays all registered usernames
+- Handles empty user database
+
+### 4️⃣ Delete User
+- Confirms before deletion
+- Removes user safely using `pop()`
+- Prevents errors if user does not exist
+
+### 5️⃣ Exit Option
+- Cleanly exits the program
+
+### 📅 Progress Note
+
+Day 6 focuses on structured data modeling using dictionaries.
+This marks the transition from simple scripting to backend-style logic.
+
+---
 
