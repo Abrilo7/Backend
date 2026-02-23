@@ -1,4 +1,4 @@
-#CLI login system
+#login system
 correct_username ="Admin"
 correct_password = "123"
 attempts = 5
