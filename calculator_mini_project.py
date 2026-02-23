@@ -1,4 +1,4 @@
-#calculator mini project using reusable function
+# calculator mini project using reusable function
 def sum_calculator(entered_value1,entered_value2):
     return entered_value1 + entered_value2
     
