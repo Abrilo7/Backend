@@ -1,11 +1,14 @@
   # Python Foundations Journey
   
+---
 
 This repository tracks my progress through a 90-day elite backend challenge.
 
 ---
 
 ## Day 2 - Mini Project: Temperature Converter
+
+---
 
 ### Description
 Enter the temperature in Celsius.
@@ -19,9 +22,13 @@ Enter the temperature in Celsius.
 
 ## Day 3 – Mini Project: CLI Login System
 
+---
+
 ### Description
 This project simulates a simple login system in the terminal.  
 The system limits the number of password attempts and blocks access after repeated failures, introducing basic authentication logic.
+
+---
 
 ### Features
 
@@ -41,9 +48,12 @@ The system limits the number of password attempts and blocks access after repeat
 
 ## Day 4 - Mini Project: Multiplication Table Generator
 
+---
+
 ### Description
 This project generates a multiplication table for a number entered by the user.   
 
+---
 ### Usage
 
 1. Run the program in a terminal:
@@ -57,6 +67,8 @@ This project generates a multiplication table for a number entered by the user.
 
 ## Day 5 - Mini Project: CLI Shopping List Manager
 
+---
+
 ### Description
 This project is a simple Command Line Interface (CLI) application that allows users to manage a shopping list.
 
@@ -65,6 +77,8 @@ The program runs in a loop and lets:
 - Remove items
 - View the current list 
 - Exit the program
+
+---
 
 ### Features
 
@@ -89,6 +103,8 @@ Displays all current items in the shopping list.
 
 ## Day 6 - Mini Project: CLI User Management System
 
+---
+
 ### 📌 Description
 
 This project is a Command Line Interface (CLI) based User Management System built using Python dictionaries.
@@ -102,6 +118,8 @@ The program allows to:
 - Exit the system
 
 This project focuses on mastering dictionary-based data modeling and persistent state management.
+
+---
 
 ## 🚀 Features
 
@@ -127,6 +145,8 @@ This project focuses on mastering dictionary-based data modeling and persistent 
 ### 5️⃣ Exit Option
 - Cleanly exits the program
 
+---
+
 ### 📅 Progress Note
 
 Day 6 focuses on structured data modeling using dictionaries.
@@ -134,3 +154,71 @@ This marks the transition from simple scripting to backend-style logic.
 
 ---
 
+## Day 7 – Mini Project: CLI Calculator (Functions-Based)
+
+---
+
+### 📌 Description
+
+This project is a Command Line Interface (CLI) Calculator built using Python functions.
+
+The calculator performs multiple mathematical operations while applying proper function structure, parameter passing, and return values.
+
+This project focuses on mastering function design, scope separation, and clean control flow.
+
+---
+
+## 🚀 Features
+
+### 1️⃣ Addition
+
+* Uses a dedicated function
+* Accepts two numeric parameters
+* Returns computed result
+
+### 2️⃣ Subtraction
+
+* Structured as an independent function
+* Clean parameter passing
+* Returns difference
+
+### 3️⃣ Division
+
+* Handles division by zero safely
+* Returns `None` when invalid
+* Error handled in control flow
+
+### 4️⃣ Multiplication
+
+* Isolated mathematical logic
+* Returns product of inputs
+
+### 5️⃣ Exponentiation
+
+* Computes power operation
+* Clean and reusable implementation
+
+### 6️⃣ Exit Option
+
+* Exit confirmation system
+* Prevents accidental termination
+* Maintains clean loop control
+
+---
+
+## 🧠 Technical Focus
+
+* Proper use of `def`
+* Parameterized functions
+* Return values instead of internal printing
+* Separation of computation logic from UI logic
+* Defensive input validation
+* Structured program flow using a loop controller
+
+---
+
+## 📅 Progress Note
+
+Day 7 focuses on mastering function architecture and clean program structure.
+
+This marks the shift from procedural scripting to modular programming design — a foundational skill for backend development.
