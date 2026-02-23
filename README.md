@@ -20,7 +20,7 @@ Enter the temperature in Celsius.
 
 ---
 
-## Day 3 – Mini Project: CLI Login System
+## Day 3 – Mini Project: Login System
 
 ---
 
@@ -65,7 +65,7 @@ This project generates a multiplication table for a number entered by the user.
 ---
 
 
-## Day 5 - Mini Project: CLI Shopping List Manager
+## Day 5 - Mini Project: Shopping List Manager
 
 ---
 
@@ -101,7 +101,7 @@ Displays all current items in the shopping list.
 
 ---
 
-## Day 6 - Mini Project: CLI User Management System
+## Day 6 - Mini Project: User Management System
 
 ---
 
@@ -154,13 +154,11 @@ This marks the transition from simple scripting to backend-style logic.
 
 ---
 
-## Day 7 – Mini Project: CLI Calculator (Functions-Based)
+## Day 7 – Mini Project: Calculator (Functions-Based)
 
 ---
 
 ### 📌 Description
-
-This project is a Command Line Interface (CLI) Calculator built using Python functions.
 
 The calculator performs multiple mathematical operations while applying proper function structure, parameter passing, and return values.
 
