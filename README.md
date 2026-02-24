@@ -220,3 +220,90 @@ This project focuses on mastering function design, scope separation, and clean c
 Day 7 focuses on mastering function architecture and clean program structure.
 
 This marks the shift from procedural scripting to modular programming design — a foundational skill for backend development.
+
+---
+
+## Day 8 – Mini Project: Calculator (Clean Code & Scope Refactor)
+
+---
+
+### 📌 Description
+
+This project is a refactored version of the Day 7 Calculator, improved as part of **Day 8 – Scope & Clean Code**.
+
+The objective of this iteration was not to add new features, but to improve:
+
+* Code structure
+* Error handling
+* Variable naming
+* Scope management
+* Overall readability
+
+This version emphasizes writing cleaner, safer, and more maintainable Python code.
+
+---
+
+## 🚀 Features
+
+### 1️⃣ Function-Based Architecture
+
+* All operations are defined as reusable functions
+* Functions accept parameters (`num1`, `num2`)
+* Functions return computed results
+* No dependency on global variables
+
+---
+
+### 2️⃣ Structured Error Handling
+
+* Uses `try/except` for numeric input validation
+* Handles invalid menu choices safely
+* Prevents program crashes from incorrect input
+* Cleanly manages `ValueError` exceptions
+
+---
+
+### 3️⃣ Division Safety Handling
+
+* Division-by-zero handled inside the function
+* Returns `None` for invalid division
+* Control flow checks result before printing
+
+---
+
+### 4️⃣ Clean Variable Naming
+
+* `choice` for menu selection
+* `num1` and `num2` for operands
+* Descriptive function names for clarity
+
+Improves readability and maintainability.
+
+---
+
+### 5️⃣ Exit Confirmation System
+
+* User confirmation before termination
+* Prevents accidental exits
+* Maintains user control over program flow
+
+---
+
+## 🧠 Technical Focus
+
+* Scope management (local vs global understanding)
+* Refactoring repetitive validation logic
+* Proper exception handling using `ValueError`
+* Clean separation between computation and interface
+* Writing structured and readable CLI applications
+
+---
+
+## 📅 Progress Note
+
+Day 8 focuses on refining code quality rather than expanding functionality.
+
+This marks the transition from writing working programs to writing clean, maintainable, and 
+structured software — a critical step toward professional backend development.
+
+---
