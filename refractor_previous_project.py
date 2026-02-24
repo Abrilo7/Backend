@@ -1,4 +1,5 @@
 #calculator mini project using reusable function
+
 def sum_calculator(num1,num2):
     return num1 + num2
     
@@ -52,14 +53,8 @@ while True:
             print('✅ Exit cancelled')
             continue
     try:
-        num1 = input("Enter the first number: \n>> ")
-        num2 = input("Enter the second number: \n>> ")
-    except ValueError:
-        print("❌ Invalid input! ")
-        continue 
-    try:
-        num1 = float(num1)
-        num2 = float(num2)
+        num1 = float(input("Enter the first number: \n>> "))
+        num2 = float(input("Enter the second number: \n>> "))
     except:
         print("❌ Invalid input")
         continue
