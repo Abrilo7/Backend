@@ -307,3 +307,34 @@ This marks the transition from writing working programs to writing clean, mainta
 structured software — a critical step toward professional backend development.
 
 ---
+## Day 9 – Student Grade Analyzer Mini-Project
+
+---
+
+## 📌 Description
+
+This project demonstrates structured Python programming by combining input validation, data processing, grading logic, and result summarization in a clean workflow.
+
+It allows users to input student names and their corresponding scores, then:
+
+- Assign letter grades based on score ranges
+- Determine pass or fail status
+- Count total passing and failing students
+- Identify the highest and lowest scoring students
+
+The project focuses on writing clean, readable, and logically organized backend-style code.
+
+---
+
+## 🚀 Features
+
+- Input validation (empty input handling)
+- Name and score count verification
+- Automatic grade assignment (A+ to F)
+- Pass/Fail classification
+- Highest scoring student detection
+- Lowest scoring student detection
+- Pass and fail counters
+
+---
+
