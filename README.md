@@ -82,20 +82,20 @@ The program runs in a loop and lets:
 
 ### Features
 
-#### 1️⃣ Add Item
+#### 1 Add Item
 Users can add new items to the shopping list.
 - Input is cleaned using `.strip()` to remove extra spaces.
 - Input is converted to lowercase using `.lower()` for consistency.
 
-#### 2️⃣ Remove Item
+#### 2 Remove Item
 Users can remove an item by name.
 - The program checks if the item exists before removing it.
 - Prevents crashes when item is not found.
 
-#### 3️⃣ View List
+#### 3 View List
 Displays all current items in the shopping list.
 
-#### 4️⃣ Input Validation
+#### 4 Input Validation
 - Menu only accepts numbers.
 - Prevents invalid menu selections.
 
@@ -105,7 +105,7 @@ Displays all current items in the shopping list.
 
 ---
 
-### 📌 Description
+### Description
 
 This project is a Command Line Interface (CLI) based User Management System built using Python dictionaries.
 
@@ -121,33 +121,33 @@ This project focuses on mastering dictionary-based data modeling and persistent 
 
 ---
 
-## 🚀 Features
+## Features
 
-### 1️⃣ Register User
+### 1 Register User
 - Username is normalized using `.strip()` and `.lower()`
 - Prevents duplicate usernames
 - Stores data in dictionary (`users[username] = password`)
 
-### 2️⃣ Login System
+### 2 Login System
 - Verifies if username exists
 - Validates password
 - Handles incorrect password and unknown user cases safely
 
-### 3️⃣ View All Users
+### 3 View All Users
 - Displays all registered usernames
 - Handles empty user database
 
-### 4️⃣ Delete User
+### 4 Delete User
 - Confirms before deletion
 - Removes user safely using `pop()`
 - Prevents errors if user does not exist
 
-### 5️⃣ Exit Option
+### 5 Exit Option
 - Cleanly exits the program
 
 ---
 
-### 📅 Progress Note
+###  Progress Note
 
 Day 6 focuses on structured data modeling using dictionaries.
 This marks the transition from simple scripting to backend-style logic.
@@ -158,7 +158,7 @@ This marks the transition from simple scripting to backend-style logic.
 
 ---
 
-### 📌 Description
+###  Description
 
 The calculator performs multiple mathematical operations while applying proper function structure, parameter passing, and return values.
 
@@ -166,37 +166,37 @@ This project focuses on mastering function design, scope separation, and clean c
 
 ---
 
-## 🚀 Features
+##  Features
 
-### 1️⃣ Addition
+### 1 Addition
 
 * Uses a dedicated function
 * Accepts two numeric parameters
 * Returns computed result
 
-### 2️⃣ Subtraction
+### 2 Subtraction
 
 * Structured as an independent function
 * Clean parameter passing
 * Returns difference
 
-### 3️⃣ Division
+### 3 Division
 
 * Handles division by zero safely
 * Returns `None` when invalid
 * Error handled in control flow
 
-### 4️⃣ Multiplication
+### 4 Multiplication
 
 * Isolated mathematical logic
 * Returns product of inputs
 
-### 5️⃣ Exponentiation
+### 5 Exponentiation
 
 * Computes power operation
 * Clean and reusable implementation
 
-### 6️⃣ Exit Option
+### 6 Exit Option
 
 * Exit confirmation system
 * Prevents accidental termination
@@ -204,7 +204,7 @@ This project focuses on mastering function design, scope separation, and clean c
 
 ---
 
-## 🧠 Technical Focus
+## Technical Focus
 
 * Proper use of `def`
 * Parameterized functions
@@ -215,7 +215,7 @@ This project focuses on mastering function design, scope separation, and clean c
 
 ---
 
-## 📅 Progress Note
+## Progress Note
 
 Day 7 focuses on mastering function architecture and clean program structure.
 
@@ -227,7 +227,7 @@ This marks the shift from procedural scripting to modular programming design —
 
 ---
 
-### 📌 Description
+###  Description
 
 This project is a refactored version of the Day 7 Calculator, improved as part of **Day 8 – Scope & Clean Code**.
 
@@ -243,9 +243,9 @@ This version emphasizes writing cleaner, safer, and more maintainable Python cod
 
 ---
 
-## 🚀 Features
+##  Features
 
-### 1️⃣ Function-Based Architecture
+### 1 Function-Based Architecture
 
 * All operations are defined as reusable functions
 * Functions accept parameters (`num1`, `num2`)
@@ -254,7 +254,7 @@ This version emphasizes writing cleaner, safer, and more maintainable Python cod
 
 ---
 
-### 2️⃣ Structured Error Handling
+### 2 Structured Error Handling
 
 * Uses `try/except` for numeric input validation
 * Handles invalid menu choices safely
@@ -263,7 +263,7 @@ This version emphasizes writing cleaner, safer, and more maintainable Python cod
 
 ---
 
-### 3️⃣ Division Safety Handling
+### 3 Division Safety Handling
 
 * Division-by-zero handled inside the function
 * Returns `None` for invalid division
@@ -271,7 +271,7 @@ This version emphasizes writing cleaner, safer, and more maintainable Python cod
 
 ---
 
-### 4️⃣ Clean Variable Naming
+### 4 Clean Variable Naming
 
 * `choice` for menu selection
 * `num1` and `num2` for operands
@@ -281,7 +281,7 @@ Improves readability and maintainability.
 
 ---
 
-### 5️⃣ Exit Confirmation System
+### 5 Exit Confirmation System
 
 * User confirmation before termination
 * Prevents accidental exits
@@ -289,7 +289,7 @@ Improves readability and maintainability.
 
 ---
 
-## 🧠 Technical Focus
+## Technical Focus
 
 * Scope management (local vs global understanding)
 * Refactoring repetitive validation logic
@@ -299,7 +299,7 @@ Improves readability and maintainability.
 
 ---
 
-## 📅 Progress Note
+## Progress Note
 
 Day 8 focuses on refining code quality rather than expanding functionality.
 
@@ -311,7 +311,7 @@ structured software — a critical step toward professional backend development.
 
 ---
 
-## 📌 Description
+## Description
 
 This project demonstrates structured Python programming by combining input validation, data processing, grading logic, and result summarization in a clean workflow.
 
@@ -326,7 +326,7 @@ The project focuses on writing clean, readable, and logically organized backend-
 
 ---
 
-## 🚀 Features
+## Features
 
 - Input validation (empty input handling)
 - Name and score count verification
@@ -338,3 +338,38 @@ The project focuses on writing clean, readable, and logically organized backend-
 
 ---
 
+## Day 10 – Student Grade Analyzer Mini-Project
+
+---
+
+## Description
+
+This project demonstrates structured Python programming by combining **input validation, error handling, data processing, grading logic, and result analysis** in a clean and organized workflow.
+
+The program allows users to register students and store their scores, then automatically process the data to generate useful academic insights.
+
+It performs the following tasks:
+
+* Assign letter grades based on score ranges
+* Determine pass or fail status
+* Calculate the class average score
+* Count total passing and failing students
+* Identify the highest and lowest scoring students
+* Allow users to search for a specific student record
+
+The project focuses on writing **clean, modular, and logically structured backend-style Python code** using functions and proper error handling.
+
+---
+
+## Features
+
+* Input validation and numeric error handling (`try/except`)
+* Duplicate student prevention
+* Automatic grade assignment (A+ to F)
+* Pass/Fail classification
+* Student registration and record storage
+* Student search functionality
+* Class statistics calculation
+* Highest scoring student detection
+* Lowest scoring student detection
+* Pass and fail counters
