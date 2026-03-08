@@ -373,3 +373,32 @@ The project focuses on writing **clean, modular, and logically structured backen
 * Highest scoring student detection
 * Lowest scoring student detection
 * Pass and fail counters
+## Day 11 – TODO Application
+
+### Overview
+
+On Day 11 I built a simple command-line TODO application using Python.
+The program allows users to add, view, and delete tasks from the terminal.
+Tasks are stored in a text file so they remain saved even after the program exits.
+
+### Features
+
+* Add new tasks
+* View all tasks with numbering
+* Delete tasks by selecting their number
+* Persistent task storage using a text file
+
+### Technologies Used
+
+* Python
+* File handling (`readlines`, `write`, `append`)
+* Functions
+* Modules
+* Exception handling
+
+### Future Improvements
+
+* Mark tasks as completed
+* Edit existing tasks
+* Add validation for empty tasks
+* Improve user interface and error handling
