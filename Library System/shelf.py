@@ -1,0 +1,13 @@
+
+book1 = ("Atomic Habits", "James Clear","2018")
+book2 = ("Clean Code", "Robert C. Martin", "2008")
+book3 = ("The Pragmatic Programmer", "Andrew Hunt","1999")
+book4 = ("Python Crash Course", "Eric Matthes", "2015")
+book5  = ("Deep Work", "Cal Newport", "2016")
+book6  = ("The Alchemist","Paulo Coelho", "1988")
+book7  = ("Rich Dad Poor Dad", "Robert Kiyosaki","1997")
+book8  = ("Introduction to Algorithms", "Thomas H. Cormen","2009")
+book9  = ("Think Python", "Allen B. Downey", "2012")
+book10 = ("The Lean Startup", "Eric Ries", "2011")
+book11 = ("Code Complete", "Steve McConnell", "2004")
+book12 = ("Zero to One", "Peter Thiel", "2014")
