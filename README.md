@@ -13,7 +13,7 @@ This repository tracks my progress through a 90-day elite backend challenge.
 ### Description
 Enter the temperature in Celsius.
 
-### Output will display:
+#### Output will display:
 - Temperature in Kelvin
 - Temperature in Fahrenheit
   
@@ -24,13 +24,13 @@ Enter the temperature in Celsius.
 
 ---
 
-### Description
+#### Description
 This project simulates a simple login system in the terminal.  
 The system limits the number of password attempts and blocks access after repeated failures, introducing basic authentication logic.
 
 ---
 
-### Features
+#### Features
 
 1. **Username and Password Input**  
    - The system asks for a username and password in the terminal.
@@ -50,11 +50,11 @@ The system limits the number of password attempts and blocks access after repeat
 
 ---
 
-### Description
+#### Description
 This project generates a multiplication table for a number entered by the user.   
 
 ---
-### Usage
+#### Usage
 
 1. Run the program in a terminal:
 2. Enter the number you want to multiply.
@@ -69,7 +69,7 @@ This project generates a multiplication table for a number entered by the user.
 
 ---
 
-### Description
+#### Description
 This project is a simple Command Line Interface (CLI) application that allows users to manage a shopping list.
 
 The program runs in a loop and lets:
@@ -80,7 +80,7 @@ The program runs in a loop and lets:
 
 ---
 
-### Features
+#### Features
 
 #### 1 Add Item
 Users can add new items to the shopping list.
@@ -105,7 +105,7 @@ Displays all current items in the shopping list.
 
 ---
 
-### Description
+#### Description
 
 This project is a Command Line Interface (CLI) based User Management System built using Python dictionaries.
 
@@ -121,33 +121,33 @@ This project focuses on mastering dictionary-based data modeling and persistent 
 
 ---
 
-## Features
+#### Features
 
-### 1 Register User
+#### 1 Register User
 - Username is normalized using `.strip()` and `.lower()`
 - Prevents duplicate usernames
 - Stores data in dictionary (`users[username] = password`)
 
-### 2 Login System
+#### 2 Login System
 - Verifies if username exists
 - Validates password
 - Handles incorrect password and unknown user cases safely
 
-### 3 View All Users
+#### 3 View All Users
 - Displays all registered usernames
 - Handles empty user database
 
-### 4 Delete User
+#### 4 Delete User
 - Confirms before deletion
 - Removes user safely using `pop()`
 - Prevents errors if user does not exist
 
-### 5 Exit Option
+#### 5 Exit Option
 - Cleanly exits the program
 
 ---
 
-###  Progress Note
+####  Progress Note
 
 Day 6 focuses on structured data modeling using dictionaries.
 This marks the transition from simple scripting to backend-style logic.
@@ -158,7 +158,7 @@ This marks the transition from simple scripting to backend-style logic.
 
 ---
 
-###  Description
+####  Description
 
 The calculator performs multiple mathematical operations while applying proper function structure, parameter passing, and return values.
 
@@ -166,37 +166,37 @@ This project focuses on mastering function design, scope separation, and clean c
 
 ---
 
-##  Features
+####  Features
 
-### 1 Addition
+#### 1 Addition
 
 * Uses a dedicated function
 * Accepts two numeric parameters
 * Returns computed result
 
-### 2 Subtraction
+#### 2 Subtraction
 
 * Structured as an independent function
 * Clean parameter passing
 * Returns difference
 
-### 3 Division
+#### 3 Division
 
 * Handles division by zero safely
 * Returns `None` when invalid
 * Error handled in control flow
 
-### 4 Multiplication
+#### 4 Multiplication
 
 * Isolated mathematical logic
 * Returns product of inputs
 
-### 5 Exponentiation
+#### 5 Exponentiation
 
 * Computes power operation
 * Clean and reusable implementation
 
-### 6 Exit Option
+#### 6 Exit Option
 
 * Exit confirmation system
 * Prevents accidental termination
@@ -204,22 +204,14 @@ This project focuses on mastering function design, scope separation, and clean c
 
 ---
 
-## Technical Focus
+#### Technical Focus
 
 * Proper use of `def`
 * Parameterized functions
 * Return values instead of internal printing
 * Separation of computation logic from UI logic
 * Defensive input validation
-* Structured program flow using a loop controller
 
----
-
-## Progress Note
-
-Day 7 focuses on mastering function architecture and clean program structure.
-
-This marks the shift from procedural scripting to modular programming design — a foundational skill for backend development.
 
 ---
 
@@ -227,7 +219,7 @@ This marks the shift from procedural scripting to modular programming design —
 
 ---
 
-###  Description
+####  Description
 
 This project is a refactored version of the Day 7 Calculator, improved as part of **Day 8 – Scope & Clean Code**.
 
@@ -243,9 +235,9 @@ This version emphasizes writing cleaner, safer, and more maintainable Python cod
 
 ---
 
-##  Features
+####  Features
 
-### 1 Function-Based Architecture
+#### 1 Function-Based Architecture
 
 * All operations are defined as reusable functions
 * Functions accept parameters (`num1`, `num2`)
@@ -254,7 +246,7 @@ This version emphasizes writing cleaner, safer, and more maintainable Python cod
 
 ---
 
-### 2 Structured Error Handling
+#### 2 Structured Error Handling
 
 * Uses `try/except` for numeric input validation
 * Handles invalid menu choices safely
@@ -263,7 +255,7 @@ This version emphasizes writing cleaner, safer, and more maintainable Python cod
 
 ---
 
-### 3 Division Safety Handling
+#### 3 Division Safety Handling
 
 * Division-by-zero handled inside the function
 * Returns `None` for invalid division
@@ -271,7 +263,7 @@ This version emphasizes writing cleaner, safer, and more maintainable Python cod
 
 ---
 
-### 4 Clean Variable Naming
+#### 4 Clean Variable Naming
 
 * `choice` for menu selection
 * `num1` and `num2` for operands
@@ -281,7 +273,7 @@ Improves readability and maintainability.
 
 ---
 
-### 5 Exit Confirmation System
+#### 5 Exit Confirmation System
 
 * User confirmation before termination
 * Prevents accidental exits
@@ -289,7 +281,7 @@ Improves readability and maintainability.
 
 ---
 
-## Technical Focus
+#### Technical Focus
 
 * Scope management (local vs global understanding)
 * Refactoring repetitive validation logic
@@ -299,7 +291,7 @@ Improves readability and maintainability.
 
 ---
 
-## Progress Note
+#### Progress Note
 
 Day 8 focuses on refining code quality rather than expanding functionality.
 
@@ -311,7 +303,7 @@ structured software — a critical step toward professional backend development.
 
 ---
 
-## Description
+#### Description
 
 This project demonstrates structured Python programming by combining input validation, data processing, grading logic, and result summarization in a clean workflow.
 
@@ -326,7 +318,7 @@ The project focuses on writing clean, readable, and logically organized backend-
 
 ---
 
-## Features
+#### Features
 
 - Input validation (empty input handling)
 - Name and score count verification
@@ -342,7 +334,7 @@ The project focuses on writing clean, readable, and logically organized backend-
 
 ---
 
-## Description
+#### Description
 
 This project demonstrates structured Python programming by combining **input validation, error handling, data processing, grading logic, and result analysis** in a clean and organized workflow.
 
@@ -361,7 +353,7 @@ The project focuses on writing **clean, modular, and logically structured backen
 
 ---
 
-## Features
+#### Features
 
 * Input validation and numeric error handling (`try/except`)
 * Duplicate student prevention
@@ -375,20 +367,20 @@ The project focuses on writing **clean, modular, and logically structured backen
 * Pass and fail counters
 ## Day 11 – TODO Application
 
-### Overview
+#### Overview
 
 On Day 11 I built a simple command-line TODO application using Python.
 The program allows users to add, view, and delete tasks from the terminal.
 Tasks are stored in a text file so they remain saved even after the program exits.
 
-### Features
+#### Features
 
 * Add new tasks
 * View all tasks with numbering
 * Delete tasks by selecting their number
 * Persistent task storage using a text file
 
-### Technologies Used
+#### Technologies Used
 
 * Python
 * File handling (`readlines`, `write`, `append`)
@@ -396,9 +388,45 @@ Tasks are stored in a text file so they remain saved even after the program exit
 * Modules
 * Exception handling
 
-### Future Improvements
+#### Future Improvements
 
 * Mark tasks as completed
 * Edit existing tasks
 * Add validation for empty tasks
 * Improve user interface and error handling
+## Day 12 – Library Management System (CLI Mini-Project)
+
+---
+
+#### Description
+
+This project demonstrates a **Command Line Library Management System** built with Python using object-oriented programming.
+
+The program simulates a small library where users can view available books, borrow books, return them, and display detailed information about each book.
+
+The system is organized into multiple modules to separate **data storage, program logic, and user interaction**, making the project cleaner and easier to maintain.
+
+---
+
+#### Features
+
+* Display a list of available books
+* Borrow a book if it is available
+* Prevent borrowing an already borrowed book
+* Return a borrowed book
+* Display detailed information about a book
+* Menu-driven CLI interface
+* Input validation and error handling using `try/except`
+
+---
+
+#### Possible Improvements
+
+* Save library data to a **JSON file**
+* Add **search by title or author**
+* Implement **user accounts**
+* Track **borrow history**
+* Convert the CLI system into a **web application**
+
+---
+
