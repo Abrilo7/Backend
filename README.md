@@ -430,3 +430,53 @@ The system is organized into multiple modules to separate **data storage, progra
 
 ---
 
+# Python Foundations Journey
+
+---
+
+This repository tracks my progress through a 90-day elite backend challenge.
+
+---
+
+## Day 13 – Mini Project: Shape Area Calculator
+
+---
+
+#### Description
+
+This project demonstrates **Object-Oriented Programming (OOP) and polymorphism in Python** by calculating the area of various geometric shapes.
+
+The program defines a base `Shape` class with an abstract `area()` method and implements **Rectangle, Square, Triangle, and Circle** as subclasses, each with its own area computation logic.
+
+The main goal is to practice **inheritance, method overriding, and clean class design** while building reusable and extendable code.
+
+---
+
+#### Features
+
+1. **Base Shape Class**  
+   - Defines an abstract `area()` method using `NotImplementedError`.  
+   - Ensures all subclasses must implement their own `area()` method.  
+
+2. **Rectangle**  
+   - Calculates area as `width * length`.  
+   - Demonstrates initialization of attributes in `__init__()`.  
+
+3. **Square**  
+   - Calculates area as `length * length`.  
+   - Highlights code reuse through OOP principles.  
+
+4. **Triangle**  
+   - Calculates area as `0.5 * base * height`.  
+   - Shows flexibility of overriding the abstract method for different formulas.  
+
+5. **Circle**  
+   - Calculates area as `π * radius^2` using Python’s `math.pi`.  
+   - Demonstrates importing standard libraries and using constants.  
+
+6. **Polymorphism in Action**  
+   - All shapes are stored in a list.  
+   - Iterates through the collection and calls `area()` for each shape without checking its type.  
+   - Shows **dynamic method dispatch** at work.  
+
+---
