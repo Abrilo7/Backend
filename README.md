@@ -430,14 +430,6 @@ The system is organized into multiple modules to separate **data storage, progra
 
 ---
 
-# Python Foundations Journey
-
----
-
-This repository tracks my progress through a 90-day elite backend challenge.
-
----
-
 ## Day 13 – Mini Project: Shape Area Calculator
 
 ---
